@@ -14,7 +14,11 @@ public class DllInjectorLauncher {
         }
         System.out.println("Найден PID процесса: " + pid);
         
+<<<<<<< HEAD
         String dllPath = "D:\\localdisc\\Programming\\GCC\\DIST\\DIST_lab3\\src\\DllInjectorAsDll.dll";
+=======
+        String dllPath = "D:\\localdisc\\Programming\\GCC\\DIST\\DIST_lab3\\DLLi\\DllInjectorAsDll.dll";
+>>>>>>> dc20c7340a56374ab0e3ff29a3ac1122f581687d
         String command = "rundll32.exe \"" + dllPath + "\" HelperFunc " + pid;
         System.out.println("Выполняется команда: " + command);
         
@@ -50,5 +54,9 @@ public class DllInjectorLauncher {
         }
         return null;
     }
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> dc20c7340a56374ab0e3ff29a3ac1122f581687d
